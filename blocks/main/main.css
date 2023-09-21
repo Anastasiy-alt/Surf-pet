@@ -1,0 +1,342 @@
+.button {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    border: none;
+    background-color: inherit;
+}
+
+.main {
+    background-image: url(../../images/surf_main-1.png);
+    height: 1024px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.main__mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1024px;
+    width: 100%;
+    background: radial-gradient(62.09% 62.09% at 42.87% 49.23%,
+            rgba(34, 34, 34, 0.43) 0%,
+            #0F0F0F 100%);
+}
+
+/*  */
+.main__map {
+    position: absolute;
+    top: -1280px;
+    right: -70px;
+    z-index: 6;
+}
+
+.main__arrows {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+}
+
+.main__arrow-left {
+    background-image: url(../../images/Arrow_left.svg);
+    margin-right: 20px;
+}
+
+.main__arrow-right {
+    background-image: url(../../images/Arrow_right.svg);
+}
+
+.main__logo-text {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: -14px;
+    top: 0;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 156px;
+    text-transform: uppercase;
+    opacity: 0.0654;
+    width: 467px;
+    z-index: 1;
+}
+
+.main__logo-rectangle {
+    width: 168px;
+    height: 181px;
+    flex-shrink: 0;
+    background-color: #4AF6CD;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.main__logo {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 86px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    z-index: 3;
+    position: relative;
+    width: 280px;
+    left: 0px;
+    top: 100px;
+}
+
+.main__aside {
+    position: relative;
+    height: 1024px;
+    width: 168px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2515);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__logo_lite {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-size: 40px;
+    vertical-align: text-bottom;
+}
+
+.main__menu-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    align-items: center;
+    row-gap: 37px;
+    margin-bottom: 20px;
+}
+
+.main__menu-link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main__menu-element {
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+    color: #FFF;
+    list-style-type: none;
+
+}
+
+.main__menu-text {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 3px;
+    margin-top: 6px;
+}
+
+.main__menu-img {
+    text-align: center;
+}
+
+.main__search {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin: 1px;
+}
+
+.main__date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__date-date {
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+
+.main__date-container {
+    margin-top: 15px;
+    color: #FFF;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 1.4px;
+}
+
+.main__point {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+}
+
+.main__point-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 1.05px;
+}
+
+.main__title-section {
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-end;
+}
+
+.main__subtitle {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Fira Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 7.333px;
+    text-transform: uppercase;
+    opacity: 0.5012;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main__subtitle-decoration {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    margin-right: 24px;
+}
+
+.main__title {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Fira Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 86px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 48px;
+}
+
+.main__text-arrow {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 86px;
+    text-transform: uppercase;
+}
+
+.main__title-button {
+    background-image: url(../../images/Arrow_right.svg);
+    width: 24px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-bottom: 41px;
+}
+
+.main__double-arrows {
+    background-image: url(../../images/Down_arrows.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 24px;
+    margin-right: 210px;
+}
+
+.main__bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main__bottom-menu {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.main__bottom-menu-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__bottom-dec {
+    width: 200px;
+    height: 4px;
+    background: #FFF;
+}
+
+.main__bottom-text {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.main__bottom-number {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 34px;
+    text-transform: uppercase;
+}
