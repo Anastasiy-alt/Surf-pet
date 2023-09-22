@@ -1,5 +1,30 @@
 .page {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    background-color: #171919;
 }
+
+.button {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    border: none;
+    background-color: inherit;
+}
+
+.link {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+}
+
+/* .page__dec {
+    position: absolute;
+    top: 0;
+    left: 168px;
+    height: 100%;
+    width: 1px;
+    opacity: 0.067;
+    background-color: #FFF;
+} */
