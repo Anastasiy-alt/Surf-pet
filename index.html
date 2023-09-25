@@ -106,15 +106,13 @@
     <section class="surf">
         <div class="surf__background">
             <p class="surf__background-text">Surf</p>
-            <!-- <img src="./images/Map_dots.svg" alt="Map." class="surf__background-map"> -->
             <img src="./images/POI_serf.svg" alt="Point." class="surf__background-point">
             <p class="surf__background-coordinates">34.0501&#176; N -118.2446&#176; W</p>
         </div>
         <div class="surf__title-decoration"></div>
         <h2 class="surf__title">Surf</h2>
         <div class="surf__subtitle-section">
-            <p class="main__subsubtitle surf__subsubtitle"><span class="main__subtitle-decoration"></span>Current
-                location</p>
+            <p class="main__subsubtitle surf__subsubtitle"><span class="main__subtitle-decoration"></span>Current&#160;location</p>
             <h3 class="main__subtitle surf__subtitle">California &#10072; USA&#8201;</h3>
         </div>
         <div class="surf__point-box">
@@ -362,6 +360,10 @@
                 </article>
             </div>
         </div>
+        <article class="main__arrows surf__arrows">
+            <button class="button main__arrow-left"></button>
+            <button class="button main__arrow-right"></button>
+        </article>
         <article class="surf__img-block">
             <div class="surf__img-element">
                 <h4 class="surf__img-title">Malibu Beach</h4>
@@ -408,32 +410,59 @@
                 </a>
             </div>
         </article>
+    </section>
 
-        <article class="surf__info">
-            <div class="surf__info-header">
-                <p class="surf__info-title">Airlie&#160;Beach</p>
-                <div class="surf__info-decoration"></div>
-                <p class="surf__info-subtitle">Australia</p>
-                <button class="button surf__info-button"></button>
-            </div>
-            <ul class="surf__info-list">
-                <li class="surf__info-list-item">
-                    <img src="./images/Surf_icon-list.svg" alt="Surf icon." class="surf__info-item-img">
-                    <p class="surf__info-item-value">9 - 13</p>
-                    <p class="surf__info-item-name">Surf (FT)</p>
-                </li>
-                <li class="surf__info-list-item">
-                    <img src="./images/Water_icon-list.svg" alt="Water icon." class="surf__info-item-img">
-                    <p class="surf__info-item-value">+2.3</p>
-                    <p class="surf__info-item-name">Tide (FT)</p>
-                </li>
-                <li class="surf__info-list-item">
-                    <img src="./images/Wind_icon-list.svg" alt="Wind icon." class="surf__info-item-img">
-                    <p class="surf__info-item-value">4 SE</p>
-                    <p class="surf__info-item-name">Wind (KTS)</p>
-                </li>
-            </ul>
+    <section class="travel">
+        <p class="surf__background-text travel__background-text">Travel</p>
+        <div class="surf__title-decoration travel__title-decoration"></div>
+        <h2 class="surf__title travel__title">Travel</h2>
+        <img src="./images/Travel_image.png" alt="Seascape: green islands and beach, bird's eye view." class="travel__img">
+
+        <div class="surf__subtitle-section travel__subtitle-section_right">
+            <p class="main__subsubtitle surf__subsubtitle"><span class="main__subtitle-decoration"></span>Shore</p>
+            <h3 class="main__subtitle surf__subtitle">Airlie Beach &#10072; Australia&#8201;</h3>
+        </div>
+        <article class="main__arrows surf__arrows travel__arrows">
+            <button class="button main__arrow-left"></button>
+            <button class="button main__arrow-right"></button>
         </article>
+
+        <div class="surf__subtitle-section travel__subtitle-section_left">
+            <p class="main__subsubtitle surf__subsubtitle travel__subsubtitle">Airline<span class="main__subtitle-decoration"></span></p>
+            <h3 class="main__subtitle surf__subtitle travel__subtitle">Virgin Australia&#8201; <img src="./images/Travel_virgin.png" alt="Virgin logo." class="travel__subtitle-img"> </h3>
+        </div>
+
+        <img src="./images/Travel_airplane.png" alt="Airplane virgin." class="travel__airplane">
+
+        <ul class="travel__list">
+            <li class="travel__item">
+                <p class="travel__vertical-text">Destination</p>
+                <h4 class="travel__item-title">Queensland Australia</h4>
+            </li>
+            <li class="travel__item">
+                <p class="travel__vertical-text">Distance</p>
+                <h4 class="travel__item-title">7,065&#160;Miles</h4>
+            </li>
+            <li class="travel__item">
+                <p class="travel__vertical-text">Travel Time</p>
+                <h4 class="travel__item-title">23 Hours 5&#160;Minutes</h4>
+            </li>
+            <li class="travel__item">
+                <p class="travel__vertical-text">Pricing</p>
+                <h4 class="travel__item-title">$1,976&#160;USD
+                    <p class="travel__itemsubtitle">Round Trip</p>
+                </h4>
+            </li>
+        </ul>
+
+        <img src="./images/Travel_coctail.png" alt="Coctail." class="travel__coctail">
+        
+        <a href="" class="link surf__img-link travel__link">
+            <p class="surf__link-text travel__link-text">Book &#8211; </p>
+            <p class="button surf__link-text travel__link-text">Flight
+                <img src="./images/Surf_img_button.svg" alt="Arrow link." class="surf__link-arrow travel__link-arrow">
+            </p>
+        </a>
     </section>
 
     <script src="./scripts/index.js"></script>

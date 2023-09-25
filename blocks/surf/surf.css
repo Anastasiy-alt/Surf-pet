@@ -1,5 +1,6 @@
 .surf {
-    height: 1951px;
+    height: auto;
+    position: relative;
 }
 
 /* .surf__background {} */
@@ -8,7 +9,7 @@
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 1173px;
+    top: 150px;
     left: -49px;
     text-transform: uppercase;
     color: rgb(255, 255, 255, 0.02);
@@ -19,16 +20,9 @@
     text-transform: uppercase;
 }
 
-.surf__background-map {
-    position: absolute;
-    top: 1391px;
-    left: 92px;
-    width: calc(100% - 240px);
-}
-
 .surf__background-point {
     position: absolute;
-    top: 1243px;
+    top: 219px;
     right: 0;
 }
 
@@ -36,7 +30,7 @@
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 1720px;
+    top: 670px;
     right: -100px;
     color: rgb(255, 255, 255, 0.4);
     text-align: right;
@@ -73,9 +67,8 @@
 
 .surf__subtitle-section {
     margin-top: 58px;
-    margin-left: calc(100vw - 490px);
     text-align: end;
-    width: 418px;
+    margin-right: 73px;
 }
 
 .surf__subtitle {
@@ -163,10 +156,16 @@
     left: 81vw;
 }
 
+.surf__point:nth-child(9):hover .surf__info {
+    margin-left: 24px;
+    margin-bottom: 86px;
+}
+
 .surf__img-block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 277px;
 }
 
 .surf__img-element {
@@ -317,7 +316,6 @@
 
 .surf__info {
     visibility: hidden;
-    margin-left: 196px;
     position: absolute;
     width: 283px;
     height: 216px;
@@ -329,6 +327,7 @@
 }
 
 .surf__point:hover .surf__info {
+    margin-left: 196px;
     visibility: visible;
     transform: rotate(45deg);
 }
@@ -430,4 +429,12 @@
     font-weight: 300;
     line-height: 12px;
     text-transform: uppercase;
+}
+
+.surf__arrows {
+    position: static;
+    display: flex;
+    margin-bottom: 70px;
+    margin-right: 80px;
+    justify-content: flex-end;
 }

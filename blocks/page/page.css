@@ -19,6 +19,8 @@
     text-decoration: 0;
 }
 
+/* *,*::before,*::after {outline: 1px solid red} */
+
 /* .page__dec {
     position: absolute;
     top: 0;
