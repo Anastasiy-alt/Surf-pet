@@ -1,0 +1,37 @@
+.sleep {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.sleep__background-text {
+    top: 0;
+}
+
+.sleep__title-decoration {
+    margin-top: 0;
+}
+
+.sleep__hammock {
+    top: 675px;
+}
+
+.sleep__flower {
+    top: 1173px;
+}
+
+.sleep__plus-minus {
+    width: 44px;
+    height: 14px;
+    align-self: flex-end;
+    margin-top: 11px;
+}
+
+.sleep__link {
+    margin-top: 77px;
+    margin-bottom: 309px;
+}
+
+.sleep__link-text:nth-child(2) {
+    width: 151px;
+}
