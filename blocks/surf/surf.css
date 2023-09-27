@@ -437,4 +437,9 @@
     margin-bottom: 70px;
     margin-right: 80px;
     justify-content: flex-end;
+    opacity: 0.25;
+}
+
+.surf__arrows:hover {
+    opacity: 1;
 }

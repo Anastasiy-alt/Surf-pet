@@ -1,8 +1,8 @@
 let date = new Date();
-let dateDate = document.querySelector('.main__date-date');
-let dateMonth = document.querySelector('.main__date-month');
-let dateYear = document.querySelector('.main__date-year');
-let point = document.querySelector('.main__point-text')
+const dateDate = document.querySelector('.main__date-date');
+const dateMonth = document.querySelector('.main__date-month');
+const dateYear = document.querySelector('.main__date-year');
+const point = document.querySelector('.main__point-text');
 
 dateDate.textContent = date.getDate();
 if ((date.getMonth() + 1) <= 9) {

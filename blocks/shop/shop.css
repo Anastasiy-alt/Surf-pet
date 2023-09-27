@@ -1,0 +1,240 @@
+.shop {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 284px;
+}
+
+.shop__arrows {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.shop__title-decoration {
+    margin-top: 0;
+}
+
+.shop__background-text {
+    top: 0;
+}
+
+.shop__img {
+    top: 237px;
+    left: auto;
+    right: 0;
+}
+
+.shop__subtitle-section_left {
+    margin-top: 0;
+    max-width: calc(100vw * 0.3333);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 131px;
+    margin-left: calc(100vw * 0.092361);
+}
+
+.shop__subtitle {
+    line-height: normal;
+    margin-top: 8px;
+    margin-bottom: 47px;
+}
+
+.shop__subtitle-img {
+    width: 154px;
+    margin-left: -10px;
+    z-index: 1;
+}
+
+.shop__link {
+    margin-bottom: 0;
+    align-self: start;
+}
+
+.shop__link-text:nth-child(2) {
+    width: 95px;
+}
+
+.shop__cost {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 9px;
+}
+
+.shop__cost-sup {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.shop__container {
+    display: flex;
+    margin-top: 14px;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    z-index: 2;
+    margin-right: 67px;
+
+}
+
+.shop__surfboard-img {
+    max-height: calc(100vw * 0.4826389);
+}
+
+.shop__surfboard-section {
+    position: relative;
+    max-height: calc(100vw * 0.4826389);
+    margin-right: 152px;
+}
+
+.shop__surfboard-point {
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/Shop_plus.svg);
+    position: absolute;
+    top: 15vw;
+    right: 36px;
+}
+
+.shop__surfboard-point-deco {
+    visibility: hidden;
+    margin-top: 9px;
+    margin-left: 28px;
+    width: 80px;
+    height: 1px;
+    background-color: #FFF;
+}
+
+.shop__surfboard-point-text {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+    visibility: hidden;
+    margin-top: -24px;
+    margin-left: 135px;
+    width: 255px;
+}
+
+.shop__surfboard-point:hover {
+    background-image: url(../../images/Shop_minus.svg);
+}
+
+.shop__surfboard-point:hover .shop__surfboard-point-deco {
+    visibility: visible;
+}
+
+.shop__surfboard-point:hover .shop__surfboard-point-text {
+    visibility: visible;
+}
+
+.shop__surfboard-point-deco_reverse {
+    margin-left: -89px;
+}
+
+.shop__surfboard-point-text_reverse {
+    margin-left: -314px;
+    text-align: end;
+    width: 200px;
+}
+
+.shop__surfboard-point:nth-child(2) {
+    top: 23vw;
+    left: -5px;
+}
+
+.shop__surfboard-point:nth-child(3) {
+    top: auto;
+    right: auto;
+    bottom: 5vw;
+    left: 53px;
+}
+
+.shop__surfboard-point-text {
+    visibility: hidden;
+}
+
+.shop__extras-title {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 414px;
+}
+
+.shop__extras-subtitle {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-top: 35px;
+    margin-bottom: 16px;
+}
+
+.shop__extras-subtitle_height {
+    margin-top: 44px;
+}
+
+.shop__extras-cost {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.shop__extras-item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.shop__extras-item:nth-child(2) {
+    margin-top: 16px;
+}
+
+.shop__extras-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-top: 23px;
+    column-gap: 57px;
+}
